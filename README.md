@@ -41,6 +41,17 @@
       - **Desvantagens**: 
  - # <h4/> 1.7 Informacao
       - **Motivação**: Visava-se contruir uma classe que armazenasse os atributos comuns entre um projeto e uma atividade, ambos estruturas do sistema em questao.
-      - **Solução**: 
-      - **Vantagens**: 
+      - **Solução**: Criou-se uma classe Abstrata denominada Informacao, sendo apenas um modelo para as subclasse que dela herdam seus atributos, são elas Projeto e Atividade.
+      - **Vantagens**: Compartilhamento de codigo e funções com o uso de herença.
+      - **Desvantagens**:
+  - # <h4/> 1.8 Projeto
+      - **Motivação**: Era necessário representar de forma conjunta o Projeto em geral, seus atributos e funções, de forma a usar a herença em conjunto para que fosse possivel destacar tudo o que foi pedido na descrição do projeto.
+      - **Solução**: A classe Projeto foi criada e extende  a classe Informacao, porem contem alguns atributos em particular, tais como listas de alunos, professores , pesquisadores etc.
+      - **Vantagens**: Maior disposição dos atributos e funções desegnadas a um projeto genéico.
       - **Desvantagens**: 
+   - # <h4/> 1.9 Atividade
+      - **Motivação**: Desejava-se criar uma classe que representasse o objeto atividade de forma veridica e sempre visando uma boa distribuição de codigo, funcões e atributos.
+      - **Solução**: A classe atividade extende Informacao e assume atributos proprios
+      - **Vantagens**: Melhor usualidade da hereança e efeciencia no sistema
+      - **Desvantagens**: 
+
